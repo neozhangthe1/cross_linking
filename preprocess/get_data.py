@@ -47,7 +47,7 @@ def split_linkedin_dump():
     count = 0
     log = codecs.open("H:\\data\\log"+str(skip)+".txt",'w', encoding="utf-8") 
     id_map = codecs.open("H:\\data\\idmap"+str(skip)+".txt",'w', encoding="utf-8") 
-    linkedin_dump = codecs.open('H:\\data\\result.csv', encoding="utf-8")
+    linkedin_dump = codecs.open('D:\\result.csv', encoding="utf-8")
     out = ""
     linkedin_dump.next()
     for line in linkedin_dump:
